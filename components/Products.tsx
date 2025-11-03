@@ -42,7 +42,7 @@ export default function Products() {
   ];
 
   return (
-    <section className='bg-black px-4 py-16 md:py-20'>
+    <section className='bg-[#0c0a0d] px-4 py-16 md:py-20'>
       <div className='mx-auto max-w-7xl'>
         <h2
           data-aos='zoom-in'

@@ -6,7 +6,7 @@ export default function KeyServices() {
   return (
     <section className='relative overflow-hidden py-12 text-white sm:py-16 md:py-20'>
       {/* Gradient background */}
-      <div className='absolute inset-0 bg-gradient-to-br from-[#0A1220] via-[#0D1629] to-[#101B2E]' />
+      <div className='absolute inset-0 bg-linear-to-b from-[#070709] via-[#0A0D12] to-[#19171c]' />
 
       {/* Decorative background elements */}
       <div className='absolute inset-0 opacity-20'>

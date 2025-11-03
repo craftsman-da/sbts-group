@@ -2,7 +2,7 @@ import Image from 'next/image';
 
 export default function HowWeWork() {
   return (
-    <section className='bg-gradient-to-b from-[#071017] via-[#0A0D12] to-[#070709] py-12 text-white sm:py-16 md:py-20'>
+    <section className='bg-linear-to-b from-[#071017] via-[#0A0D12] to-[#070709] py-12 text-white sm:py-16 md:py-20'>
       <div className='mx-auto max-w-7xl px-4'>
         <div className='text-center'>
           <h2 className='text-2xl font-semibold sm:text-3xl md:text-4xl'>

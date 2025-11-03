@@ -20,7 +20,7 @@ export default function Roadmap() {
   );
 
   return (
-    <section className='bg-black py-14 sm:py-16 md:py-20'>
+    <section className='bg-[#0c0a0d] py-14 sm:py-16 md:py-20'>
       <div className='mx-auto max-w-7xl px-4'>
         <h2 className='text-center text-3xl font-bold text-white md:text-4xl'>
           Our Roadmap

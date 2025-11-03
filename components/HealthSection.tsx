@@ -4,18 +4,18 @@ import { Play } from 'lucide-react';
 
 export default function HealthOutbreakManager() {
   return (
-    <section className='bg-gradient-to-br from-[#005A8D] to-[#003D5C] py-16 sm:py-20 md:py-24'>
+    <section className='bg-linear-to-br from-[#005A8D] to-[#003D5C] py-16 sm:py-20 md:py-24'>
       <div
         data-aos='zoom-out-up'
         className='mx-auto grid max-w-7xl items-center gap-10 px-4 md:grid-cols-2 lg:gap-16'
       >
         {/* Left: Content */}
-        <div className='text-white'>
+        <div className='text-white text-center lg:text-left'>
           <h2 className='text-3xl font-bold leading-tight sm:text-4xl md:text-5xl'>
             Health Outbreak Manager
           </h2>
 
-          <p className='mt-5 max-w-xl text-[15px] leading-7 text-white/90'>
+          <p className='mt-5 max-w-xl text-[15px] text-left leading-7 text-white/90 mx-auto lg:mx-0'>
             From the experienced team that pioneered pandemic solutions software
             since 2020, with proven deployment in hospitals and hardware
             solutions. Our Health Outbreak ERP is specifically built for
@@ -37,8 +37,8 @@ export default function HealthOutbreakManager() {
           </Link>
         </div>
 
-        <div className='relative mx-auto w-full max-w-xl md:order-last'>
-          <div className='relative  aspect-[4/3]'></div>
+        <div className='relative mx-auto w-full max-w-xl md:order-last '>
+          <div className='relative  aspect-4/3'></div>
           <Image
             src='/healthy.png'
             alt='Health Outbreak Manager'

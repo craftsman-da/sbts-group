@@ -6,7 +6,7 @@ import React from 'react';
 
 const ServicesPage = () => {
   return (
-    <>
+    <div className='bg-linear-to-b from-[#071017] via-[#0A0D12] to-[#070709]'>
       <Services
         heading='Our Key Services'
         subheading='We provide a secure and efficient key management solution, ensuring convenient access and peace of mind for individuals and businesses.'
@@ -44,7 +44,7 @@ const ServicesPage = () => {
       <HowWeWork />
       <Keyservice2 />
       <Products />
-    </>
+    </div>
   );
 };
 

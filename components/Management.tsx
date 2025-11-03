@@ -27,7 +27,7 @@ export default function ComprehensiveSolution() {
   ];
 
   return (
-    <section className='bg-black py-16 sm:py-20 md:py-24'>
+    <section className='bg-[#0c0a0d] py-16 sm:py-20 md:py-24'>
       <div className='mx-auto max-w-7xl px-4'>
         <h2 className='text-center text-2xl font-bold uppercase leading-tight text-white sm:text-3xl md:text-[28px]'>
           ACCESSING A COMPREHENSIVE SOLUTION FOR MANAGING PANDEMICS
