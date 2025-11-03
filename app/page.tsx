@@ -6,7 +6,6 @@ import Hero from '@/components/Hero';
 import Management from '@/components/Management';
 import Products from '@/components/Products';
 import Roadmap from '@/components/Roadmap';
-import HeroSection from '@/components/HeroSection';
 
 import Services from '@/components/Services';
 import Solutions from '@/components/Solutions';
@@ -14,7 +13,7 @@ import Solutions from '@/components/Solutions';
 export default function HomePage() {
   return (
     <>
-      <Hero /> 
+      <Hero />
       <Services
         heading='Our Key Services'
         subheading='We provide a secure and efficient key management solution, ensuring convenient access and peace of mind for individuals and businesses.'
