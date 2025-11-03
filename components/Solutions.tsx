@@ -35,7 +35,7 @@ export default function Solutions() {
 
   return (
     <section className='bg-white py-16 md:py-20'>
-      <div className='container mx-auto px-4 max-w-7xl'>
+      <div data-aos='fade-up' className='container mx-auto px-4 max-w-7xl'>
         <h2 className='text-center text-3xl font-bold md:text-4xl lg:text-5xl'>
           Our Solutions
         </h2>

@@ -1,6 +1,7 @@
 import Header from '@/components/Header';
 import './globals.css';
 import Footer from '@/components/Footer';
+import AOSInit from '@/components/AOSInit';
 
 export const metadata = {
   title: 'SBTS Group - Technology Made Simple',
@@ -15,6 +16,7 @@ export default function RootLayout({
   return (
     <html lang='en'>
       <body>
+        <AOSInit />
         <Header />
         <main>{children}</main>
         <Footer />

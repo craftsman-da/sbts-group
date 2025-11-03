@@ -29,13 +29,19 @@ export default function Roadmap() {
           Quick Expression Of Our Service, Tools And Team.
         </p>
 
-        <div className='mt-10 grid gap-6 lg:grid-cols-2'>
+        <div
+          data-aos='fade-down-right'
+          className='mt-10 grid gap-6 lg:grid-cols-2'
+        >
           {row1.map((src) => (
             <Card key={src} src={src} />
           ))}
         </div>
 
-        <div className='mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3'>
+        <div
+          data-aos='zoom-in'
+          className='mt-6 grid gap-6 sm:grid-cols-2 lg:grid-cols-3'
+        >
           {row2.map((src) => (
             <Card key={src} src={src} />
           ))}

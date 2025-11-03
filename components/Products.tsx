@@ -44,15 +44,24 @@ export default function Products() {
   return (
     <section className='bg-black px-4 py-16 md:py-20'>
       <div className='mx-auto max-w-7xl'>
-        <h2 className='text-center text-3xl font-bold text-white md:text-4xl'>
+        <h2
+          data-aos='zoom-in'
+          className='text-center text-3xl font-bold text-white md:text-4xl'
+        >
           Our Products
         </h2>
-        <p className='mx-auto mt-3 max-w-3xl text-center text-sm text-gray-300/80 md:text-base'>
+        <p
+          data-aos='zoom-in'
+          className='mx-auto mt-3 max-w-3xl text-center text-sm text-gray-300/80 md:text-base'
+        >
           Explore Our Suite Of Innovative Products Designed To Drive Efficiency
           And Growth.
         </p>
 
-        <div className='mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3'>
+        <div
+          data-aos='zoom-out-down'
+          className='mt-12 grid gap-6 md:grid-cols-2 lg:grid-cols-3'
+        >
           {products.map((p) => (
             <Link
               key={p.id}

@@ -5,7 +5,10 @@ import { Play } from 'lucide-react';
 export default function HealthOutbreakManager() {
   return (
     <section className='bg-gradient-to-br from-[#005A8D] to-[#003D5C] py-16 sm:py-20 md:py-24'>
-      <div className='mx-auto grid max-w-7xl items-center gap-10 px-4 md:grid-cols-2 lg:gap-16'>
+      <div
+        data-aos='zoom-out-up'
+        className='mx-auto grid max-w-7xl items-center gap-10 px-4 md:grid-cols-2 lg:gap-16'
+      >
         {/* Left: Content */}
         <div className='text-white'>
           <h2 className='text-3xl font-bold leading-tight sm:text-4xl md:text-5xl'>

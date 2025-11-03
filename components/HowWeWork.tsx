@@ -14,7 +14,10 @@ export default function HowWeWork() {
         </div>
       </div>
 
-      <div className='mt-8 container mx-auto flex flex-col justify-center sm:mt-12'>
+      <div
+        data-aos='zoom-out'
+        className='container mt-4 mx-auto flex flex-col justify-center sm:mt-12'
+      >
         <Image
           src='/Works.png'
           alt='How we work'

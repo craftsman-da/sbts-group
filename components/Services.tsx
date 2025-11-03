@@ -46,7 +46,10 @@ export default function Services({
 
 function ServiceCard({ iconFile, title, description, href }: Service) {
   return (
-    <div className='group relative rounded-lg border border-white/10 bg-white/5 p-5 backdrop-blur transition-colors hover:bg-white/[0.07] sm:p-6'>
+    <div
+      data-aos='zoom-in'
+      className='group  relative rounded-lg border border-white/10 bg-white/5 p-5 backdrop-blur transition-colors hover:bg-white/[0.07] sm:p-6'
+    >
       <CornerGlow position='tl' />
       <CornerGlow position='br' />
 

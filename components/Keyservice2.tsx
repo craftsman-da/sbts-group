@@ -17,7 +17,7 @@ export default function KeyServices() {
       <div className='relative z-10 mx-auto max-w-7xl px-4'>
         <div className='grid gap-8 lg:grid-cols-2 lg:gap-12'>
           {/* Left column - heading and description */}
-          <div className='flex flex-col justify-center'>
+          <div data-aos='fade-right' className='flex flex-col justify-center'>
             <h2 className='text-3xl font-bold sm:text-4xl md:text-5xl'>
               Key Services
             </h2>
@@ -37,8 +37,9 @@ export default function KeyServices() {
           </div>
 
           {/* Right column - service cards */}
-          <div className='space-y-4'>
+          <div data-aos='fade-left' className='space-y-4'>
             <ServiceCard
+              data-aos='flip-up'
               iconFile='serIcon1.svg'
               title='Software Development & Integration'
               description='SBTS Group Delivers End-To-End Software Engineering And Enterprise-Grade Solutions Tailored To Client Needs.'
@@ -90,7 +91,7 @@ function ServiceCard({
         </div>
 
         {/* Content */}
-        <div className='flex-1'>
+        <div data-aos='flip-up' className='flex-1'>
           <h3 className='text-base font-semibold leading-6 sm:text-lg'>
             {title}
           </h3>
@@ -113,14 +114,14 @@ function CornerGlow({ position }: { position: 'tl' | 'br' }) {
     >
       {isTL ? (
         <div className='h-16 w-16'>
-          <div className='absolute left-0 top-0 h-px w-12 bg-gradient-to-r from-cyan-400 to-transparent' />
-          <div className='absolute left-0 top-0 h-12 w-px bg-gradient-to-b from-cyan-400 to-transparent' />
+          <div className='absolute left-0 top-0 h-px w-12 bg-linear-to-r from-cyan-400 to-transparent' />
+          <div className='absolute left-0 top-0 h-12 w-px bg-linear-to-b from-cyan-400 to-transparent' />
           <div className='absolute left-0 top-0 h-8 w-8 rounded-full bg-cyan-400/30 blur-xl' />
         </div>
       ) : (
         <div className='h-16 w-16'>
-          <div className='absolute bottom-0 right-0 h-px w-12 bg-gradient-to-l from-cyan-400 to-transparent' />
-          <div className='absolute bottom-0 right-0 h-12 w-px bg-gradient-to-t from-cyan-400 to-transparent' />
+          <div className='absolute bottom-0 right-0 h-px w-12 bg-linear-to-l from-cyan-400 to-transparent' />
+          <div className='absolute bottom-0 right-0 h-12 w-px bg-linear-to-t from-cyan-400 to-transparent' />
           <div className='absolute bottom-0 right-0 h-8 w-8 rounded-full bg-cyan-400/30 blur-xl' />
         </div>
       )}

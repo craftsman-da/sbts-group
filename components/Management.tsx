@@ -37,7 +37,10 @@ export default function ComprehensiveSolution() {
           Productive Service For Every Organizations.
         </p>
 
-        <div className='mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3'>
+        <div
+          data-aos='zoom-in'
+          className='mt-12 grid gap-8 sm:grid-cols-2 lg:grid-cols-3'
+        >
           {solutions.map((solution) => (
             <div
               key={solution.id}

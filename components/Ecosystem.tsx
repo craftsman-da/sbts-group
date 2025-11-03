@@ -6,7 +6,10 @@ import { ArrowRight } from 'lucide-react';
 export default function TechnologyEcosystem() {
   return (
     <section className='bg-white py-16 sm:py-20 md:py-24'>
-      <div className='mx-auto grid max-w-7xl items-center gap-10 px-4 md:grid-cols-2 lg:gap-16'>
+      <div
+        data-aos='zoom-in-down'
+        className='mx-auto grid max-w-7xl items-center gap-10 px-4 md:grid-cols-2 lg:gap-16'
+      >
         <div className='relative mx-auto w-full max-w-xl'>
           <div className='relative aspect-square'>
             <Image
