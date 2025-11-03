@@ -20,14 +20,7 @@ export default function Header() {
       <div className='mx-auto flex h-14 max-w-7xl items-center justify-between px-4 md:h-16'>
         {/* Logo */}
         <Link href='/' className='flex items-center gap-2'>
-          <Image
-            src='/logo.png'
-            alt='SBTS Group'
-            width={140}
-            height={28}
-            priority
-            className='h-7 w-auto md:h-8'
-          />
+          <Image src='/sbtslogo.svg' alt='SBTS Group' width={140} height={28} />
           <span className='sr-only'>SBTS Group</span>
         </Link>
 
