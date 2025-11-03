@@ -14,13 +14,13 @@ export default function HowWeWork() {
         </div>
       </div>
 
-      <div className='mt-8 w-fit sm:mt-12'>
+      <div className='mt-8 container mx-auto flex flex-col justify-center sm:mt-12'>
         <Image
           src='/Works.png'
           alt='How we work'
           width={1920}
-          height={800}
-          className='h-auto w-full object-contain'
+          height={600}
+          className=' w-full object-cover'
         />
       </div>
     </section>
