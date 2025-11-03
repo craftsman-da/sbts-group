@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
+import LanguageSelector from "./LanguageSelector";
+
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -50,9 +52,14 @@ export default function Header() {
             Sign up
           </Link>
 
-          <span className='ml-1 inline-flex h-9 w-9 items-center justify-center rounded-full bg-white/5 text-slate-300'>
-            🌐
-          </span>
+          <Image
+        src='/elan.svg'
+        width={20}
+        height={20}
+        alt='Language selector'
+        />
+        <LanguageSelector />
+        
         </div>
 
         <button

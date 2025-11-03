@@ -78,7 +78,7 @@ function ServiceCard({
       <div className='flex items-start gap-4'>
         {/* Icon */}
         <div className='flex-shrink-0'>
-          <div className='flex h-12 w-12 items-center justify-center rounded-lg bg-gradient-to-br from-cyan-400/20 to-blue-500/20'>
+          <div className='flex h-12 w-12 items-center justify-center rounded-full bg-gradient-to-br from-cyan-400/20 to-blue-500/20'>
             <Image
               src={`/${iconFile}`}
               alt=''
