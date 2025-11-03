@@ -1,8 +1,8 @@
 import Image from 'next/image';
 
 export default function Roadmap() {
-  const row1 = ['/roadmap-1.png', '/roadmap-2.png'];
-  const row2 = ['/roadmap-3.png', '/roadmap-4.png', '/roadmap-5.png'];
+  const row1 = ['/roadmap-1.svg', '/roadmap-2.svg'];
+  const row2 = ['/roadmap-3.svg', '/roadmap-4.svg', '/roadmap-5.svg'];
 
   const Card = ({ src }: { src: string }) => (
     <div className='relative overflow-hidden rounded-2xl '>
