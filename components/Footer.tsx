@@ -157,13 +157,19 @@ export default function Footer() {
         <div className='mt-10 flex flex-col items-start justify-between gap-4 border-t border-white/10 pt-6 text-xs text-slate-400 sm:flex-row'>
           <p>© {new Date().getFullYear()} SBTS Group. All rights reserved.</p>
           <div className='flex items-center gap-2'>
-            <span className='inline-flex h-7 w-7 items-center justify-center rounded-full bg-white/5'>
-              🌐
-            </span>
+           
+             <Image
+        src='/elan.svg'
+        width={20}
+        height={20}
+        alt='Language selector'
+       />
             <span>EN</span>
           </div>
         </div>
       </section>
+
+     
     </footer>
   );
 }
