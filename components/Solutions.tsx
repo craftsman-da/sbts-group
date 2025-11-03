@@ -44,7 +44,10 @@ export default function Solutions() {
           Productive Service For Every Organizations.
         </p>
 
-        <div className='mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4'>
+        <div
+          ata-aos='zoom-in'
+          className='mt-12 grid gap-8 md:grid-cols-2 lg:grid-cols-4'
+        >
           {solutionItems.map((solution) => (
             <div key={solution.id} className='flex flex-col'>
               {/* Image container with fixed aspect ratio */}
