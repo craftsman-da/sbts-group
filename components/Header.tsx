@@ -3,6 +3,8 @@
 import Image from 'next/image';
 import Link from 'next/link';
 import { useState } from 'react';
+import LanguageSelector from "./LanguageSelector";
+
 
 export default function Header() {
   const [open, setOpen] = useState(false);
@@ -63,6 +65,7 @@ export default function Header() {
         height={20}
         alt='Language selector'
         />
+        <LanguageSelector />
         
         </div>
 
