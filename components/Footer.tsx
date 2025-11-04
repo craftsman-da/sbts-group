@@ -34,11 +34,10 @@ export default function Footer() {
               required
             />
             <button
-              type='submit'
-              className='shrink-0 rounded-full bg-gradient-to-r from-cyan-400 to-teal-400 px-4 py-2 text-sm font-semibold text-black hover:from-cyan-300 hover:to-teal-300'
-            >
-              Subscribe
-            </button>
+    className="bg-[#00E0FF] text-black font-medium px-4 py-2 rounded-full mr-4 hover:bg-[#00cfe0] transition-all"
+  >
+    Subscribe
+  </button>
           </form>
         </div>
       </section>
