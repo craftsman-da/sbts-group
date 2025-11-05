@@ -66,11 +66,11 @@ export default function Products() {
             <Link
               key={p.id}
               href={`/products/${p.id}`}
-              className='group relative overflow-hidden rounded-xl bg-[#19171c] p-6 transition-colors'
+              className='group relative overflow-hidden rounded-xl bg-[#040462] p-6 transition-colors'
             >
               <div
                 aria-hidden
-                className='pointer-events-none absolute bottom-0 left-1/2 z-0 h-28 w-40 -translate-x-1/2 translate-y-1/3 rounded-full bg-cyan-400/0 blur-2xl transition-all duration-500 group-hover:bg-cyan-400/25'
+                className='pointer-events-none absolute bottom-0 left-1/2 z-0 h-28 w-40 -translate-x-1/2 translate-y-1/3 rounded-full bg-[cyan-400/0] blur-2xl transition-all duration-500 group-hover:bg-[#00F0FF]'
               />
               <div className='relative z-10'>
                 <div className='text-[11px] font-semibold tracking-[0.18em] text-[#178BD1]'>
